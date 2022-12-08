@@ -1,0 +1,16 @@
+{
+    "id": [1,2,3,4,5],
+    "INTEREST_PREPAID":[1,5,6,7,8],
+    "CUSTOMER_TYPE":[1,5,6,7,8],
+    "CRLIMIT":[1,5,6,7,8],
+    "PRINCIPAL_AMT":[1,5,6,7,8],
+    "PRINCIPAL_PAY_DAY":[1,5,6,7,8],
+    "NPL_DAYS":[1,5,6,7,8],
+    "LAST_REPAYMENT_AMOUNT":[1,5,6,7,8],
+    "FEE_OUTSTANDING":[1,5,6,7,8],
+    "VEXPRIREDATE":[1,5,6,7,8],
+    "Down_payment%":[1,5,6,7,8],
+    "Down payment amount":[1,5,6,7,8],
+    "LOAN_LENGTH":[1,5,6,7,8]
+}
+  
