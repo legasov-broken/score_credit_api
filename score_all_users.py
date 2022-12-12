@@ -1,12 +1,16 @@
 from lib import *
 from credit_score import credit_score
 
+from mapping import dict_mapping
 
 def score_users(input):
 
     # sort user's data
-    input["A"] = input.pop("id")
-    input = collections.OrderedDict(sorted(input.items()))
+
+    id_ = input['id']
+    input = dict_mapping(input)
+    input['id'] = id_
+
 
     # extract each user data from .json
     ext = []
@@ -18,7 +22,7 @@ def score_users(input):
     ext_ = ext[:,1:]
 
     # take id of users
-    id = ext[:,0]
+    id = np.array(id_)
 
     # caculate each user's score from their data
     score = []
