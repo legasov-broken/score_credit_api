@@ -1,16 +1,33 @@
-{
-    "id": [1,2,3,4,5],
-    "INTEREST_PREPAID":[10,5,6,7,8],
-    "CUSTOMER_TYPE":[1,5,6,7,8],
-    "CRLIMIT":[1,5,6,7,8],
-    "PRINCIPAL_AMT":[1,5,6,7,8],
-    "PRINCIPAL_PAY_DAY":[1,5,6,7,8],
-    "NPL_DAYS":[1,5,6,7,8],
-    "LAST_REPAYMENT_AMOUNT":[1,5,6,7,8],
-    "FEE_OUTSTANDING":[1,5,6,7,8],
-    "VEXPRIREDATE":[1,5,6,7,8],
-    "Down_payment%":[1,5,6,7,8],
-    "Down payment amount":[1,5,6,7,8],
-    "LOAN_LENGTH":[1,5,6,7,8]
-}
-  
+[
+  {
+    "_id": 23,
+    "CUSTOMER_TYPE": 0,
+    "CRLIMIT": 19530000,
+    "PRINCIPAL_AMT": 12835511.27,
+    "PRINCIPAL_PAY_DAY": 11,
+    "INTEREST_PREPAID": 0,
+    "NPL_DAYS": 1,
+    "LAST_REPAYMENT_AMOUNT": 578829.23,
+    "FEE_OUTSTANDING": 0,
+    "VEXPRIREDATE": 0,
+    "Down_payment": 30,
+    "Down_payment_amount": 8370000,
+    "LOAN_LENGTH": 1090
+  }
+  ,
+  {
+    "_id": 24,
+    "CUSTOMER_TYPE": 2,
+    "CRLIMIT": 15960000,
+    "PRINCIPAL_AMT": 8162897.28,
+    "PRINCIPAL_PAY_DAY": 11,
+    "INTEREST_PREPAID": 0,
+    "NPL_DAYS": 135,
+    "LAST_REPAYMENT_AMOUNT": 453795.8,
+    "FEE_OUTSTANDING": 138824.06,
+    "VEXPRIREDATE": 0,
+    "Down_payment": 30,
+    "Down_payment_amount": 6840000,
+    "LOAN_LENGTH": 1096
+  }
+]
